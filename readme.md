@@ -186,13 +186,13 @@
 当你配置完以上的时候，就可以开始使用ESLint的代码审查功能了，来强势走一波！
 CMD方式！使用eslint ***.js 的方式在配置了eslint的环境目录下做代码检测，当然，错误和提示文字都会直观的在控制台输出，其中环境的问题也会输出在这里，所以环境是否配置好，可以用eslint命令检查一下下。
 
-![事例](blob:https://maxiang.io/bcfab2b3-eed7-468e-b136-53f58dd17230)
+![事例](http://ww4.sinaimg.cn/large/639d3769jw1faxbqyv2w8j20hr05ndgn.jpg)
 
 终极效果！
-![事例](blob:https://maxiang.io/c716d068-d785-4454-b2f1-0f270be689fe)
+![事例](http://ww2.sinaimg.cn/large/639d3769jw1faxbrln9qgj20rf06qq5b.jpg)
 
 看到左边的小红点了么！这就是语法检查的结果，当然你并不知道这些告警的意义，别急，我们来eslint一下！
-!事例](blob:https://maxiang.io/e4291d76-87b3-485a-b20a-3013f25ee17e)
+![事例](http://ww1.sinaimg.cn/large/639d3769jw1faxbryv3rmj20h30bmq5g.jpg)
 
 怎么样直观么？
 其实ESLint的配置真的做的很细致，深入到骨髓的那种！很稀饭！养成一个好的编码习惯是每个人都应该做到的！共勉！
