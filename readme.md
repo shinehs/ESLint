@@ -198,7 +198,9 @@ function demo(){
 ```
 这样这段代码就不会被eslint检测到，再比如：
 ```
-/* eslint no-comma-dangle:1 */
+/* eslint no-debugger:1,aaa */
+//no-debugger 1 为配置代码中是否可以出现debugger 配置需要这里我设置为出现警告而已 ，你可以可以设置他为error
+//aaa为全局变量，这样写ESLint就不会检测他的声明。
 function demo(){
   return false;
 }
