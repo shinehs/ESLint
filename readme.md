@@ -1,6 +1,7 @@
 #ESLint (js语法检测工具)
 ###集成Sublime Text 
 炒鸡简单，呜呜呜开车了！跟着我做就好了！
+
 1.Sublime集成 ESLint 需要两个插件 SublimeLinter 和 SublimeLinter-contrib-eslint 直接在Package Controll中安装就好（Install package->SublimeLinter  and  Install package->SublimeLinter-contrib-eslint）
 
 2.然后再安装ESLint的全局环境： npm i -g eslint(全局安装就好了)
