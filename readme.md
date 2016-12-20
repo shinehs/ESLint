@@ -223,8 +223,8 @@ CMD方式！使用```eslint ***.js``` 的方式在配置了eslint的环境目录
 看到左边的小红点了么！这就是语法检查的结果，当然你并不知道这些告警的意义，别急，我们来eslint一下！
 ![事例](http://ww1.sinaimg.cn/large/639d3769jw1faxbryv3rmj20h30bmq5g.jpg)
 
-怎么样直观么？
-其实ESLint的配置真的做的很细致，深入到骨髓的那种！老朽很稀饭！别嫌弃麻烦，少年！DFTBA！来一发吧！
+是不是很强势！是不是很优秀！
+其实ESLint的配置真的做的很细致，深入到骨髓的那种，刚开始的时候你可能会觉得比较多，比较复杂，我格尼你嗦...拿上这份配置，在这个寒冷的冬天！没有女朋友都温暖！稀饭！炒鸡稀饭！别嫌弃麻烦，少年！DFTBA！来一发吧！
 ![来一发](http://ww3.sinaimg.cn/large/639d3769jw1faxcslupfgj201b01a74b.jpg)
 
 [附官方中文地址]( http://eslint.cn/)  http://eslint.cn/
