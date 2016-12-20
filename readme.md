@@ -226,4 +226,5 @@ CMD方式！使用```eslint ***.js``` 的方式在配置了eslint的环境目录
 怎么样直观么？
 其实ESLint的配置真的做的很细致，深入到骨髓的那种！老朽很稀饭！别嫌弃麻烦，少年！DFTBA！来一发吧！
 ![来一发](http://ww3.sinaimg.cn/large/639d3769jw1faxcslupfgj201b01a74b.jpg)
+
 [附官方中文地址]( http://eslint.cn/)  http://eslint.cn/
