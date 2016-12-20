@@ -80,15 +80,15 @@
     "env": {
         "browser": true,
         "node": true,
-	"shared-node-browser":true,
+    	"shared-node-browser":true,
         "es6": true,
-	"jquery": true,
-	"mocha":true,
-	"prototypejs":true,
-	"nashorn":true,
-	"embertest":true,
-	"amd":true,
-	"worker":true
+    	"jquery": true,
+    	"mocha":true,
+    	"prototypejs":true,
+    	"nashorn":true,
+    	"embertest":true,
+    	"amd":true,
+    	"worker":true
     },
     "parser": "babel-eslint",
     "ecmaFeatures": {
@@ -99,10 +99,10 @@
     	"_id": true,
     	"Swipe": true,
         "define":true,
-	"user":true,
-	"header":true,
-	"chrome":true,
-	"console":true
+    	"user":true,
+    	"header":true,
+    	"chrome":true,
+    	"console":true
     },
     "extends": "eslint:recommended",
     "rules": {
@@ -163,13 +163,13 @@
         //    expression：强制使用方法表达式的方式，var f = function() {}  e.g [2, "expression"]  
         //    allowArrowFunctions: declaration风格中允许箭头函数。 e.g [2, "declaration", { "allowArrowFunctions": true }]  
         "func-style": 0,
-	"no-console":0,
-	"no-alert": 0,  
-	"no-array-constructor": 2,  
-	"no-caller": 1,  
-	"no-catch-shadow": 1,  
-	"no-cond-assign": 1,
-	"no-debugger": 1
+    	"no-console":0,
+    	"no-alert": 0,  
+    	"no-array-constructor": 2,  
+    	"no-caller": 1,  
+    	"no-catch-shadow": 1,  
+    	"no-cond-assign": 1,
+    	"no-debugger": 1
     },
     "arrowFunctions": true,  
     "destructuring": true,  // 解构赋值 
@@ -228,3 +228,4 @@ CMD方式！使用```eslint ***.js``` 的方式在配置了eslint的环境目录
 ![来一发](http://ww3.sinaimg.cn/large/639d3769jw1faxcslupfgj201b01a74b.jpg)
 
 [附官方中文地址]( http://eslint.cn/)  http://eslint.cn/
+以上！ 有什么不懂的可以联系我，不忙的时候都可以给你解答，一起进步吧~嘿喂狗~
