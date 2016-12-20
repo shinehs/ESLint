@@ -6,7 +6,7 @@
 
 2.然后再安装```ESLint```的全局环境： ```npm i -g eslint```(全局安装就好了)
 
-3.安装后修改SublimeLinter的配置文件，让你环境中的eslint与```sublime```关联，在```Package Settings```中打开其```Setting-User```，将下列代码复制进去内容如下：```(Preferences->Package Settings->SublimeLinter)```
+3.安装后修改SublimeLinter的配置文件，让你环境中的```eslint```与```sublime```关联，在```Package Settings```中打开其```Setting-User```，将下列代码复制进去内容如下：```(Preferences->Package Settings->SublimeLinter->Settings - User)```
 
 ```javascript
     {
