@@ -1,6 +1,6 @@
 #ESLint (js语法检测工具)
 ###集成```Sublime Text ```
-炒鸡简单，呜呜呜开车了！跟着我做就好了！
+炒鸡简单，呜呜呜开车辣！跟着我做就好了！别在意那些细节！
 
 1.```Sublime```集成 ```ESLint``` 需要两个插件 ```SublimeLinter``` 和 ```SublimeLinter-contrib-eslint``` 直接在Package Controll中安装就好（```Install package->SublimeLinter  and  Install package->SublimeLinter-contrib-eslint```）
 
