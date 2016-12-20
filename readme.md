@@ -1,12 +1,12 @@
 #ESLint (js语法检测工具)
-###集成Sublime Text 
+###集成```Sublime Text ```
 炒鸡简单，呜呜呜开车了！跟着我做就好了！
 
-1.Sublime集成 ESLint 需要两个插件 SublimeLinter 和 SublimeLinter-contrib-eslint 直接在Package Controll中安装就好（Install package->SublimeLinter  and  Install package->SublimeLinter-contrib-eslint）
+1.```Sublime```集成 ```ESLint``` 需要两个插件 ```SublimeLinter``` 和 ```SublimeLinter-contrib-eslint``` 直接在Package Controll中安装就好（```Install package->SublimeLinter  and  Install package->SublimeLinter-contrib-eslint```）
 
-2.然后再安装ESLint的全局环境： npm i -g eslint(全局安装就好了)
+2.然后再安装```ESLint```的全局环境： ```npm i -g eslint```(全局安装就好了)
 
-3.安装后修改SublimeLinter的配置文件，让你环境中的eslint与subline关联，在Package Settings中打开其Setting-User，将下列代码复制进去内容如下：(Preferences->Package Settings->SublimeLinter)
+3.安装后修改SublimeLinter的配置文件，让你环境中的eslint与```sublime```关联，在```Package Settings```中打开其```Setting-User```，将下列代码复制进去内容如下：```(Preferences->Package Settings->SublimeLinter)```
 
 ```javascript
     {
@@ -68,8 +68,8 @@
     }
 }
 ```
-以上为笔者环境下的SublimeLinter->Setting-User 内容，其中注意修改本机对应cmd的命令路径，配置完成后就可以开始使用辣~
-不过在配置之前我们还是先对ESLint进行一下设置，（配置文件为.eslint，window用户可用命令提示符生成该文件：echo {} > .eslintrc ）配置比较大气，你可以扔在你物理盘的根目录（不需要扔在项目中），这样的做法很好，比如说我的项目都在D:// 下那我直接扔一个.eslintrc（配置文件，如果只是一个人用，不考虑团队习惯，那么在D盘扔下一个就行了！）在D://下，然后在在我D://project/   目录下再扔一个.eslintrc，这样每个项目就可以单独配置了(比较适合团队协作！)。
+以上为笔者环境下的```SublimeLinter->Setting-User``` 内容，其中注意修改本机对应```cmd```的命令路径，配置完成后就可以开始使用辣~
+不过在配置之前我们还是先对```ESLint```进行一下设置，（配置文件为```.eslint```，window用户可用命令提示符生成该文件：```echo {} > .eslintrc ```）配置比较大气，你可以扔在你物理盘的根目录（不需要扔在项目中），这样的做法很好，比如说我的项目都在D:// 下那我直接扔一个```.eslintrc```（配置文件，如果只是一个人用，不考虑团队习惯，那么在D盘扔下一个就行了！）在```D://```下，然后在在我```D://project/```   目录下再扔一个```.eslintrc```，这样每个项目就可以单独配置了(比较适合团队协作！)。
 上作者本人的配置，当然每个人的习惯都不同，可以根据自己的习惯慢慢修改：
 
 ```javascript
@@ -202,11 +202,13 @@ function demo(){
 function demo(){
   return false;
 }
+
+/*end*/
 ```
 重写配置项
 ***
 当你配置完以上的时候，就可以开始使用ESLint的代码审查功能了，来强势走一波！
-CMD方式！使用eslint ***.js 的方式在配置了eslint的环境目录下做代码检测，当然，错误和提示文字都会直观的在控制台输出，其中环境的问题也会输出在这里，所以环境是否配置好，可以用eslint命令检查一下下。
+CMD方式！使用```eslint ***.js``` 的方式在配置了eslint的环境目录下做代码检测，当然，错误和提示文字都会直观的在控制台输出，其中环境的问题也会输出在这里，所以环境是否配置好，可以用eslint命令检查一下下。
 
 ![事例](http://ww4.sinaimg.cn/large/639d3769jw1faxbqyv2w8j20hr05ndgn.jpg)
 
