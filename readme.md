@@ -191,7 +191,7 @@
     "experimentalObjectRestSpread": true  // http://es6.ruanyifeng.com/#docs/object#对象的扩展运算符
 }
 ```
-***当然你还可以把这些配置重写在你的文件中，比如：
+当然了你还可以把这些配置重写在你的模块文件中，比如：
 ```javascript
 /* eslint-disable */
 function demo(){
