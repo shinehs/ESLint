@@ -202,10 +202,10 @@ function demo(){
 这样这段代码就不会被eslint检测到，再比如：
 ```javascript
 /* eslint no-debugger:1,aaa */
-//no-debugger 1 为配置代码中是否可以出现debugger 配置需要这里我设置为出现警告而已 ，你可以可以设置他为error
-//aaa为全局变量，这样写ESLint就不会检测他的声明。
+//no-debugger 1 为配置代码中是否可以出现debugger 配置需要这里我设置为出现警告而已 ，当然你也可以设置他为error
+//aaa为全局变量，这样写ESLint就不会检测他的声明是否在当前上线文，就不会乱报错
 function demo(){
-  return false;
+  return aaa;
 }
 
 /*end*/
