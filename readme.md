@@ -91,9 +91,6 @@
     	"worker":true
     },
     "parser": "babel-eslint",
-    "ecmaFeatures": {
-       "jsx": true
-    },
     "globals": {
         //全局变量
     	"_id": true,
@@ -102,7 +99,16 @@
     	"user":true,
     	"header":true,
     	"chrome":true,
-    	"console":true
+    	"console":true,
+	"pageInfo":true,
+	"security":true,
+	"loading":true,
+	"phantom":true,
+	"getFileName":true,
+	"CurentTime":true,
+	"fs":true,
+	"hiidoEvent":true,
+	"spaRouters":true
     },
     "extends": "eslint:recommended",
     "rules": {
@@ -113,7 +119,7 @@
         "array-bracket-spacing": [2, "never"],  
         "block-scoped-var": 0,  // 在块级作用域外访问块内定义的变量是否报错提示  
         "brace-style": [2, "1tbs", { "allowSingleLine": true }],  // if while function 后面的{必须与if在同一行，java风格。 
-        "camelcase": 2,  // 双峰驼命名格式 
+        "camelcase": 1,  // 双峰驼命名格式 
         // 数组和对象键值对最后一个逗号， never参数：不能带末尾的逗号, always参数：必须带末尾的逗号，  
         // always-multiline：多行模式必须带逗号，单行模式不能带逗号  
         "comma-dangle": [2, "never"],  
@@ -122,8 +128,8 @@
         // 控制逗号在行尾出现还是在行首出现  
         // http://eslint.org/docs/rules/comma-style  
         "comma-style": [2, "last"],  
-        // 圈复杂度  
-        "complexity": [2,9],  
+        // 逻辑复杂度  该规则禁止词法声明 (let、const、function 和 class) 出现在 case或default 子句中
+        "complexity": 0,  
         // 以方括号取对象属性时，[ 后面和 ] 前面是否需要空格, 可选参数 never, always  
         "computed-property-spacing": [2,"never"],  
         // 强制方法必须返回值，TypeScript强类型，不配置  
@@ -169,9 +175,12 @@
     	"no-caller": 1,  
     	"no-catch-shadow": 1,  
     	"no-cond-assign": 1,
-    	"no-debugger": 1
-    },
-    "arrowFunctions": true,  
+    	"no-debugger": 1,
+
+	"no-fallthrough":1,
+	"no-var":0,//不使用var 根据项目情况定
+	"no-new-object":1,
+    "arrowFunctions": true,
     "destructuring": true,  // 解构赋值 
     "classes": true,  
     "defaultParams": true,  // http://es6.ruanyifeng.com/#docs/function#函数参数的默认值  
@@ -189,6 +198,7 @@
     "templateStrings": true,  // http://es6.ruanyifeng.com/#docs/string#模板字符串  
     "superInFunctions": true,  
     "experimentalObjectRestSpread": true  // http://es6.ruanyifeng.com/#docs/object#对象的扩展运算符
+    }
 }
 ```
 当然了你还可以把这些配置重写在你的模块文件中，比如：
